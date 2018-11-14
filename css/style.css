@@ -1,0 +1,359 @@
+@import url(normalize.css);
+@import url(font-awesome.min.css );
+
+/*start global style*/
+* {
+    box-sizing: border-box;
+    text-align: justify;
+    font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+}
+body{
+    width: 100%;
+    margin: 0 auto;
+}
+.row {
+    margin: 0;
+}
+.banner {
+    width: 100%;
+}
+
+/*start banner style*/
+#banner {
+    overflow: hidden;
+    position: relative;
+}
+#banner>.col-lg-12 {
+    padding: 0;
+}
+.banner {
+    width: 100%;
+}
+
+/*start header style*/
+header {
+    position: absolute;
+    top: 25px;
+    width: 100%;
+}
+header .row {
+    min-height: 470px;
+}
+header .logo {
+    padding-top: 10px;
+}
+header nav {
+    float: right;
+}
+header li:hover a {
+    color: crimson;
+    font-weight: bold;
+    border-radius: 30px;
+}
+header a{
+    color: white;
+    font-weight: bold;
+}
+header p:first-of-type {
+    font-size: 2em;
+    color: white;
+}
+header p:nth-of-type(2) {
+    font-size: 1.2em;
+    color: white;
+    padding-left: 110px;
+}
+header p span {
+    color: yellow;
+}
+
+/*start resources style*/
+#resources {
+    color: #fff;
+    background-color: #a2ca28;
+    padding: 90px 0;
+}
+#resources .col-lg-12 {
+    padding: 0 0 20px 0;
+}
+#resources h3 {
+    clear: both;
+    padding-bottom: 20px;
+}
+#resources a {
+    color: #fff;
+}
+#resources img {
+    min-height: 40px;
+}
+
+/*start fitness-first style*/
+#fitness-first {
+    color: #fff;
+    background-color: #a2ca28;
+}
+#fitness-first .row {
+    padding: 0 15px;
+}
+#fitness-first .row div {
+    padding: 0; 
+    max-height: 370px;
+    overflow: auto;
+}
+#fitness-first .col-lg-8 .img-responsive {
+    min-height: 370px;
+}
+#fitness-first .col-lg-4 {
+    background-color: #fff;
+    text-align: center;
+    min-height: 370px;
+}
+#fitness-first .col-lg-4 h5 {
+    margin-top: 50px;
+    color: #fd634e;
+    text-align: center;
+}
+#fitness-first .col-lg-4 h2 {
+    color: #a2ca28;
+    text-align: center;
+}
+#fitness-first .col-lg-4 p {
+    color: #656e74;
+    text-align: center;
+    padding: 10px 30px;
+    margin: 0;
+}
+#fitness-first .col-lg-8 {
+    
+}
+#fitness-first .row:first-child .col-lg-8 p {
+    position: absolute;
+    right: 75px;
+    bottom: 40px;    
+}
+#fitness-first .row:nth-child(2) .col-lg-8 p {
+    position: absolute;
+    left: 50px;
+    bottom: 40px;    
+}
+#fitness-first #icon1 {
+    position: absolute;
+    right: 40px;
+    bottom: 45px;
+}
+#fitness-first #icon2 {
+    position: absolute;
+    left: 180px;
+    bottom: 45px;
+}
+#fitness-first span {
+    color: red;
+    font-weight: bolder;
+}
+
+/*start health style*/
+#health {
+    background-color: #fd634e;
+}
+#health .row div {
+    padding: 0; 
+}
+#health .row {
+    padding: 0 15px;
+}
+#health .col-lg-8 .img-responsive {
+    height: 100%;
+    min-width: 100%;
+}
+#health .col-lg-8 {
+    position: relative;
+}
+#para1 {
+    position: absolute;
+    top: 60px;
+    left: 60px;
+    color: #fff;
+}
+#para2 {
+    position: absolute;
+    top: 60px;
+    right: 90px;
+    color: #fff;
+}
+#icon3 {
+    position: absolute;
+    top: 60px;
+    right: 55px;
+}
+
+/*start lifestyle style*/
+#lifestyle div {
+    max-height: 270px;
+    overflow: auto;
+}
+#lifestyle .col-lg-4 {
+    background-color: #fff;
+    min-height: 270px;
+}
+
+#lifestyle .col-lg-4 h5 {
+    color: #fd634e;
+    padding: 50px 40px 0;
+}
+#lifestyle .col-lg-4 h2 {
+    color: #a2ca28;
+    padding-left: 40px;
+    margin-top: 10px;
+}
+#lifestyle .col-lg-4 p {
+    color: #656e74;
+    padding: 25px 40px;
+}
+#icon4 {
+    position: absolute;
+    right: 40px;
+    top: 60px;
+}
+#lifestyle .col-lg-8 {
+    background-color: #a2ca28;
+    color: #fff;
+    min-height: 270px;
+}
+#lifestyle .col-lg-8 h2 {
+    padding: 40px 40px 10px;
+}
+#lifestyle .col-lg-8 p {
+    padding: 10px 40px; 
+}
+
+/*start food style*/
+#food .col-lg-8 {
+    max-height: 305px;
+    overflow: hidden;
+}
+
+/*start eatingHabit style*/
+#eatingHabit div {
+    max-height: 270px;
+    overflow: auto;
+}
+#eatingHabit .col-lg-8 {
+    background-color: #fff;
+    min-height: 270px;
+}
+#eatingHabit .col-lg-8 h5 {
+    color: #fd634e;
+    padding: 50px 40px 0;
+}
+#eatingHabit .col-lg-8 h2 {
+    color: #a2ca28;
+    padding-left: 40px;
+    margin-top: 10px;
+}
+#eatingHabit .col-lg-8 p {
+    color: #656e74;
+    padding: 25px 40px;
+}
+#icon5 {
+    position: absolute;
+    right: 50px;
+    top: 55px;
+}
+#eatingHabit .col-lg-4 {
+    background-color: #a2ca28;
+    color: #fff;
+    min-height: 270px;
+}
+#eatingHabit .col-lg-4 h5 {
+    padding: 50px 40px 0;
+}
+#eatingHabit .col-lg-4 h2 {
+    padding-left: 40px;
+    margin-top: 10px;
+}
+#eatingHabit .col-lg-4 p {
+    padding: 25px 40px;
+}
+#icon6 {
+    position: absolute;
+    right: 35px;
+    top: 60px;
+}
+
+/*start banner2 style*/
+#banner2 {
+    overflow: hidden;
+    position: relative;
+    color: #fff;
+}
+#banner2 #absolute {
+    position: absolute;
+    width: 100%;
+    top: 220px;
+}
+#banner2 .col-lg-12 h2, #banner2 .col-lg-12 p {
+    text-align: center;
+}
+
+/*start footer style*/
+footer {
+    background-color: black;
+    color: white;
+    padding: 60px;
+}
+footer h4 {
+    padding-bottom: 10px;
+}
+.newsletter {
+    padding: 40px 15px;
+    text-align: right;
+}
+footer input{
+    background-color: aqua;
+    color: white;
+    border: 2px solid purple;
+}
+footer input:focus {
+    background-color: #ff3399;
+}
+footer button {
+    background-color: #ff3399;
+    border: 2px solid purple;
+    color: white;
+}
+footer button img {
+    height: 10px;
+    width: 10px;
+}
+footer li {
+    padding: 5px;
+}
+footer li img {
+    width: 15px;
+    max-height: 15px;
+    min-height: 15px;
+}
+footer a {
+    border: 2px solid white;
+    border-radius: 25px;
+}
+footer li:first-of-type:hover a {
+    border-radius: 25px;
+    background-color: #2e3192;
+    border: 2px solid #2e3192;
+}
+footer li:nth-of-type(2):hover a {
+    border-radius: 25px;
+    background-color: #00aeef;
+    border: 2px solid #00aeef;
+}
+footer li:nth-of-type(3):hover a {
+    border-radius: 25px;
+    background-color: #ed3123;
+    border: 2px solid #ed3123;
+}
+footer li:nth-of-type(4):hover a {
+    border-radius: 25px;
+    background-color: #171a8f;
+    border: 2px solid #171a8f;
+}
